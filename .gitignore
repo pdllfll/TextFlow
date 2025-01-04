@@ -1,52 +1,23 @@
-# Prerequisites
-*.d
+# Ignore Visual Studio files
+.vs/
+.vscode/
+.idea/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Ignore build output
+bin/
+obj/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Ignore package restore files
+packages/
 
-# Precompiled Headers
-*.gch
-*.pch
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
